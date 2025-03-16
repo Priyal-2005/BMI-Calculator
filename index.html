@@ -8,6 +8,51 @@
     <script src="bmi.js" defer></script>
 </head>
 <body>
-    
+    <main class="container">
+        <!-- Title: BMI Calculator -->
+         <h1 class="title">BMI Calculator</h1>
+         <div class="input-group">
+            <!-- Input field: Weight -->
+            <section class="input-box">
+                <label for="weightInput">Weight (kg)</label>
+                <input type="number" id="weightInput">
+            </section>
+            <!-- Input field: Height -->
+            <section class="input-box">
+                <label for="heightInput">Height (cm)</label>
+                <input type="number" id="heightInput">
+            </section>
+         </div>
+         <!-- Result -->
+          <div class="result-box">
+            <h1 class="bmi-score">0</h1>
+            <h3 class="bmi-category">N/A</h3>
+          </div>
+          <!-- BMI Range -->
+           <div class="bmi-range-group">
+            <section class="underweight">
+                <div class="bmi-line"></div>
+                <h5 class="bmi-label">Underweight</h5>
+                <h4 class="bmi-number">&lt; 18.5</h4>
+            </section>
+            <section class="normal">
+                <div class="bmi-line"></div>
+                <h5 class="bmi-label">Normal</h5>
+                <h4 class="bmi-number">18.5 - 24.9</h4>
+            </section>
+            <section class="overweight">
+                <div class="bmi-line"></div>
+                <h5 class="bmi-label">Overweight</h5>
+                <h4 class="bmi-number">25 - 29.9</h4>
+            </section>
+            <section class="obese">
+                <div class="bmi-line"></div>
+                <h5 class="bmi-label">Obese</h5>
+                <h4 class="bmi-number">&gt; 30</h4>
+            </section>
+            <!-- BMI indicator -->
+             <div class="bmi-indicator"></div>
+           </div>
+    </main>
 </body>
 </html>
