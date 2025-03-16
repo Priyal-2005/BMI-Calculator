@@ -25,8 +25,8 @@
          </div>
          <!-- Result -->
           <div class="result-box">
-            <h1 class="bmi-score">0</h1>
-            <h3 class="bmi-category">N/A</h3>
+            <h1 id="resultBmiScore" class="bmi-score">0</h1>
+            <h3 id="resultBmiCategory" class="bmi-category">N/A</h3>
           </div>
           <!-- BMI Range -->
            <div class="bmi-range-group">
@@ -51,7 +51,13 @@
                 <h4 class="bmi-number">&gt; 30</h4>
             </section>
             <!-- BMI indicator -->
-             <div class="bmi-indicator"></div>
+             <div id="bmiIndicator" class="bmi-indicator"></div>
+           </div>
+           <div class="button-group">
+            <!-- Reset Button -->
+            <button id="resetBtn" class="reset-btn">Reset</button>
+            <!-- Calculate Button -->
+             <button id="calcBtn" class="calc-btn">Calculate</button>
            </div>
     </main>
 </body>
