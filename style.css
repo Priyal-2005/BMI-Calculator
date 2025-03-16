@@ -119,3 +119,35 @@ body{
     left: 0%;
     transition: 300ms;
 }
+
+.button-group{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.button-group button{
+    width: 100%;
+    border: none;
+    padding: 0.8rem 0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600px;
+    cursor: pointer;
+    transition: 300ms;
+    color: white;
+}
+
+.button-group button:active{
+    transform: scale(0.95);
+}
+
+.reset-btn{
+    background: black;
+}
+
+.calc-btn{
+    background: #0ba5ff;
+    box-shadow: 0px 10px 16px rgba(0, 171, 255, 0.37);
+}
